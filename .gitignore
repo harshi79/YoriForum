@@ -1,22 +1,34 @@
-# deps
-node_modules/
+# ---- Flarum local build artifacts (never commit; built by composer) ----
+/flarum/vendor/
+/flarum/storage/
+/flarum/public/
+/flarum/assets/
+/flarum/config.php
+/flarum/site.php
+/flarum/extend.php
+/flarum/index.php
+/flarum/.htaccess
+/flarum/.nginx.conf
+/flarum/.env
+/flarum/*.log
+/flarum/.flarum/
 
-# next
-.next/
-out/
+# ---- legacy custom Next.js build ----
+/legacy-custom-build/node_modules/
+/legacy-custom-build/.next/
+/legacy-custom-build/.open-next/
+/legacy-custom-build/.wrangler/
+/legacy-custom-build/.vercel/
 
-# cloudflare
-.vercel/
-.open-next/
-.wrangler/
-.dev.vars
-worker-configuration.d.ts
-
-# local sqlite (if any)
-*.db
-*.sqlite
-data/
-
-# misc
+# ---- misc ----
 .DS_Store
 *.log
+
+# ---- leftover JS tooling dirs (anywhere) ----
+node_modules/
+.next/
+.open-next/
+.wrangler/
+.vercel/
+out/
+dist/

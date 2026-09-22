@@ -1,0 +1,32 @@
+# YoriForum — local playground: Flarum (your code) + MariaDB.
+# 1. Build the code first:  ./flarum/scripts/install-local.sh   (from repo root)
+# 2. cd flarum/docker && cp .env.example .env && docker compose up -d --build
+# 3. Open http://localhost:8080 and run the web installer:
+#      DB host: db | DB name/user/pass: from .env | driver: mariadb
+services:
+  web:
+    build: .
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    volumes:
+      - ..:/var/www/flarum
+    depends_on:
+      db:
+        condition: service_healthy
+  db:
+    image: mariadb:11.4
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASS:-rootpass}
+      MARIADB_DATABASE: ${DB_NAME:-flarum}
+      MARIADB_USER: ${DB_USER:-flarum}
+      MARIADB_PASSWORD: ${DB_PASS:-flarumpass}
+    volumes:
+      - flarum-db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  flarum-db:
