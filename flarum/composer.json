@@ -33,7 +33,8 @@
     "fof/sitemap": "*",
     "datlechin/flarum-bbcode-hide-content": "*",
     "shebaoting/flarum-money": "*",
-    "v17development/flarum-user-badges": "*"
+    "v17development/flarum-user-badges": "*",
+    "wyatts97/pwa-v2": "*"
   },
   "config": {
     "preferred-install": "dist",

@@ -21,5 +21,12 @@ Migration path (still $0): **Oracle Cloud Always-Free VPS** (2 VMs free forever)
 - **FreeFlarum.com** — free managed Flarum hosting (unofficial, limited extensions). Great for a 5-minute trial of Flarum itself before you commit.
 - **ProFreeHost / GoogieHost** — other free PHP hosts if you ever need a mirror.
 
+## Community channels (Telegram + Discord, free)
+Both big forums run live chat off-forum — do the same (it's also our shoutbox substitute, since no verified v2 shoutbox fits no-SSH shared hosting):
+1. Create a **Telegram group** (free) + a **Discord server** (free): `#announcements` (mirror forum news), `#general`, `#support`, `#share-drops`.
+2. Add invite links via **Admin → Links** (nav), Custom Footer, and the welcome thread.
+3. Add free mod bots (TG: Rose/Group Butler; Discord: Wick/Carl-bot free tiers) + mirror the forum rules (same rules apply off-site).
+4. Use channels for: update blasts, event hype, quick help, downtime comms. Keep real knowledge ON the forum (searchable forever) — chat is for hanging out.
+
 ## Contributing to YoriForum
 This repo is the deployment kit + docs. PRs welcome for: better rank ladders, tag structures, translations, theme tweaks (share LESS/CSS overrides that survive updates), and new-guide pages.

@@ -47,3 +47,12 @@ Awards for milestones (first share, 10 best answers…), rank-ups, events, and s
 
 ## Why was my share removed?
 Either red-line content (rules §3), a legit complaint (terms §5), or a dead link / fake hide. Honest mistake? Fix it and repost. Think we're wrong? Appeal via Contact.
+
+## What can I post in 🕵️ Leaks?
+News and rumors to DISCUSS: upcoming phones, games, shows, tech gossip — with sources. Not allowed: credential dumps, personal data, pastes, paid content. Fake "leaks" get locked. When in doubt, ask a mod first.
+
+## How do 📥 Requests work?
+Post `[REQUEST] what you want` with details, wait for a hero to fill it, then mark ✅ solved. Fillers earn coins + badges. You can't request logins, paid dumps, or red-line stuff — full guide stickied in Requests.
+
+## What is 💎 VIP?
+An EARNED status for top contributors (never bought): Lounge access, name style, early event access, bigger voice. Reach Elite + contribute consistently, win Top Monthly, or get staff-invited. Details in the ranks thread.

@@ -32,6 +32,11 @@ No alt-account farming, no begging reactions, no vote manipulation. Found farmin
 - Don't repost someone's unlocked hidden content publicly — respect the hide, link the thread instead.
 - No begging/bribing for likes, no coin farming (spam replies for YoriCoins get deleted + coins removed).
 
+## 8. 🕵️ Leaks, requests & freebies honesty
+- 🕵️ **Leaks** = news/rumors DISCUSSION only (launches, games, shows; public breach *news* with news links). No dumps, credentials, pastes, personal data, or paid content — instant ban. Sources required; fake leaks get locked + warned.
+- 📥 **Requests**: never request red-line stuff, logins/accounts, or paid-content dumps. Fillers: don't fill banned asks — flag them.
+- 🎁 **Freebies**: legit free offers only (trials, promos, FOSS, free courses). "Free premium accounts" = stolen = instant ban.
+
 ## ⚖️ Consequences
 Warning → mute/suspension → permanent ban. Red-line stuff (§3) skips straight to ban + report where required. Mod calls are final; appeal politely via Contact.
 

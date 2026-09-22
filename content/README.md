@@ -10,6 +10,9 @@ Ready-to-paste content so the forum launches alive, not empty. All free to edit 
 | `welcome-thread.md` | The big welcome + how-it-works post | Post as discussion in General → Sticky + FrontPage it |
 | `sections.md` | FULL taxonomy: ~30 sections, prefixes, per-section toggles | Use when creating tags in Admin → Tags (parents first, then children) |
 | `unlock-guide.md` | Hidden-content + YoriCoins member guide | Post in Share Zone, sticky it, link from FAQ |
+| `requests-guide.md` | How Requests work (ask format, fulfill rewards, banned asks) | Sticky in Requests |
+| `contest-kit.md` | Staff event playbook (5 contest templates, $0 prizes) | Staff Room reference + Events threads |
+| `staff-recruitment.md` | Open staff application thread | Post in Announcements, review monthly |
 | `ranks.md` | Rank ladder (names, points, colors) | Admin → Gamification settings (values to type in) |
 | `seed-discussions.md` | 5 starter discussions | Post one per section on launch day |
 

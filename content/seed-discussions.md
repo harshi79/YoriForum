@@ -83,6 +83,24 @@ Golden rule: never repost unlocked content publicly — respect the hide, link t
 
 ---
 
+## 9. 🎉 Events — 🏆 EVENT: Top Contributor — Month 1 is LIVE
+*First contest. Post in Events + announce in Announcements.*
+
+Our first ever contest is LIVE! 🏆
+
+**Top Contributor — Month 1:** the member with the most quality posts + Best Answers + likes received this month wins:
+🥇 500 YC + 🏆 badge + custom title + Lounge spotlight
+🥈 300 YC + badge · 🥉 150 YC + badge
+
+Rules: no spam (farmers disqualified), staff excluded, winners posted by the 5th of next month. Full contest system: ask staff. Go go go! 🚀
+
+---
+
+## 10. 📢 Announcements — staff recruitment (OPEN — apply inside)
+*Don't write custom text — post `content/staff-recruitment.md` as the thread, keep it open, review monthly.*
+
+---
+
 ## 7. 📤 Share Zone — The drop box is OPEN 📥
 *The "share anything" megathread. Sticky it in the Share Zone.*
 

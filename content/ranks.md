@@ -46,3 +46,9 @@ Create categories: Milestones / Contributor / Staff picks / Events.
 | 🎖 Veteran · 💎 Elite · 👑 Legend | reaching the rank (monthly check / on request) |
 | 🛡 Staff | mods + admins |
 | 🎉 Founding Member | first 100 registered users — award at launch+30 days |
+
+## 💎 VIP (earned, never bought — `v17development` group + Lounge access)
+- **What:** the contributor elite tier. Color `#f472b6`, distinct name style, 🏝 Lounge access, early contest/event access, custom title, double contest entries.
+- **How earned (any path):** reach Elite (1,000 pts) + staff invite · win Top Contributor of the Month · 25+ Best Answers · exceptional share streak (staff-nominated).
+- **Kept by:** staying active monthly. Inactive 60+ days → lapses to regular rank (re-earn anytime). Abusing status = stripped + warned.
+- **Never:** bought, sold, traded, or given for uploads of paid/stolen content. Report anyone "selling VIP" — instant scam ban.

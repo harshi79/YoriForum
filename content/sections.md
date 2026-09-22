@@ -1,6 +1,6 @@
-# 🗂 YoriForum full section taxonomy (~30 sections, PHCorner-mapped)
+# 🗂 YoriForum full section taxonomy (~32 sections, PHCorner + CrackWeb mapped)
 
-Modeled on PHCorner's live structure (category groups → sections → thread prefixes), localized (🇮🇳 carriers instead of PH ones). Create in **Admin → Tags**: parent tags first (= category groups), then child sections under each. `askvortsov/flarum-categories` renders them as the classic forum list.
+Modeled on PHCorner's live structure (category groups → sections → thread prefixes) plus CrackWeb's engagement mechanics, localized (🇮🇳 carriers). Create in **Admin → Tags**: parent tags first (= category groups), then child sections under each. `askvortsov/flarum-categories` renders them as the classic forum list.
 
 **How to read this:** Prefixes = title format members must use (sticky a format thread per group). Extensions column = per-section toggles beyond the global pack.
 
@@ -13,8 +13,9 @@ Modeled on PHCorner's live structure (category groups → sections → thread pr
 ## 🌍 GENERAL
 | Section | Slug | Prefixes | Extensions / notes |
 |---|---|---|---|
-| 💬 Chitchat | `chitchat` | — | The daily hangout (shoutbox substitute until a v2 shout extension is verified). |
+| 💬 Chitchat | `chitchat` | — | The daily hangout (live-chat substitute; real-time layer = Telegram/Discord). |
 | 👋 Introductions | `introductions` | `[INTRO]` | — |
+| 🕵️ Leaks & Rumors | `leaks` | `[LEAK] [RUMOR] [NEWS]` | **News/rumors DISCUSSION only** (launches, games, shows, public breach *news* with news links). NO dumps/credentials/pastes/personal data/paid content (instant ban). Sources required; fake leaks locked. Full charter: rules §8. |
 
 ## 📶 MOBILE NETWORKS (the signature zone 🇮🇳)
 | Section | Slug | Prefixes | Extensions / notes |
@@ -71,6 +72,8 @@ House rule: share configs/tricks you made or found; no selling here (→ Trading
 |---|---|---|---|
 | 📤 Share Zone | `share-zone` | `[SHARE] [TOOL] [PACK] [FIND]` | Uploads ON. Hide-content encouraged. Sticky the drop-box + unlock demo threads. |
 | 🛠 Software & Tools | `software` | `[FREE] [FOSS] [PORTABLE] [TOOL]` | **FOSS/freeware ONLY. No cracks, keygens, or pre-activated paid software** (→ rules §3, host ToS). |
+| 📥 Requests | `requests` | `[REQUEST] [FULFILLED]` | Best Answer ON (= fulfilled stamp). Fulfillers earn coins + Helper badges. Guide: `content/requests-guide.md`. Can't request: red-line stuff, credentials/accounts, paid content. |
+| 🎁 Freebies | `freebies` | `[TRIAL] [PROMO] [FREEBIE] [COURSE]` | **Legit free offers only** (trials, promos, FOSS, free courses). NO "free premium accounts" (stolen) — instant ban. |
 
 ## 🏪 MARKET
 | Section | Slug | Prefixes | Extensions / notes |
@@ -86,8 +89,8 @@ House rule: share configs/tricks you made or found; no selling here (→ Trading
 | Section | Slug | Prefixes | Extensions / notes |
 |---|---|---|---|
 | 🎲 Off-Topic | `off-topic` | — | Everything else. Rules still apply. |
-| 🏝 Lounge | `lounge` | — | **Veteran+ only** (permission-gated group) — the aspirational hangout. |
-| 🎉 Events & Giveaways | `events` | `[CONTEST] [GIVEAWAY]` | Staff-run + approved member giveaways. Polls ON. |
+| 🏝 Lounge | `lounge` | — | **VIP/Veteran+ only** (permission-gated). VIP = earned contributor tier (see ranks). The aspirational hangout. |
+| 🎉 Events & Giveaways | `events` | `[CONTEST] [GIVEAWAY]` | Staff-run + approved member giveaways. Polls ON. Playbook: `content/contest-kit.md`. |
 
 ## 🛡 STAFF (private)
 | Section | Slug | Prefixes | Extensions / notes |
@@ -97,7 +100,8 @@ House rule: share configs/tricks you made or found; no selling here (→ Trading
 ## Global systems across sections
 - **Hidden content** (`[LIKE]`/`[REPLY]`/`[LOGIN]`): encouraged in VPN & Configs, Mobile Networks, Share Zone, E-Books — optional everywhere else. Full guide: `content/unlock-guide.md`.
 - **YoriCoins** (earn everywhere): new post +5, reply +2, like received +1, signup bonus 50. Config: `content/ranks.md`.
-- **Best Answer**: Help & Support, Networking Help, Android, iOS, PC & Hardware, Programming.
+- **Best Answer**: Help & Support, Requests, Networking Help, Android, iOS, PC & Hardware, Programming.
 - **Polls**: Suggestions, Gaming, Events (+ anywhere fun).
 - **Approval**: first post of new members everywhere (anti-spam); Trading Post may require Member rank.
 - **Uploads**: everywhere except Announcements (staff) — 2–5 MB/file cap (5 GB disk budget).
+- **PWA**: members can install the forum as an app (prompt appears automatically once the extension is configured).
