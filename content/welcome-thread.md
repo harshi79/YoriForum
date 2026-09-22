@@ -8,6 +8,7 @@ Hey, welcome in! ⚡ YoriForum is a community for tech talk, questions, and show
 3. **Turn on dark mode** 🌙 — avatar menu → Night Mode. You know you want to.
 4. **Join a discussion** — or start one. Stuck? Post in **Help & Support**.
 5. **React + upvote** good posts — that's how contributors rank up.
+6. **Share anything** — files, links, tools, finds → dump them in the 📤 **Share Zone**. This forum is built for sharing (download at your own risk, scan everything ⚠️).
 
 ## 🏆 How ranks work
 Post stuff, get upvotes and reactions, earn points, climb automatically:

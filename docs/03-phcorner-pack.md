@@ -20,6 +20,7 @@ Enable: **Tags, Likes, Mentions, Subscriptions, Sticky, Lock, Flags, Approval, S
   5. 🚀 Showcase
   6. 🙋 Help & Support (+ Best Answer, see below)
   7. 🎲 Off-Topic
+  8. 📤 Share Zone — the anything-goes drop box: files, links, finds, dumps. Uploads ON, open to all Members (guests read-only), first-post approval still applies. Mods nuke red-line stuff (§3 of rules) on sight or flag.
 
 ### 3. Reactions + ranks (the addictive part)
 - **`fof/reactions`** — emoji reactions on posts (integrates with Likes). Suggested set: 👍 ❤️ 😂 😮 😢 😡. Enable for all tags.

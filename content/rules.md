@@ -1,32 +1,32 @@
 # 📜 YoriForum Community Rules
 
-*Short version: don't be a jerk, don't spam, keep it legal. Long version below.*
+*YoriForum is a free-sharing community: post almost anything, in the right place, at your own responsibility. Details + legal stuff: [/terms](/terms).*
 
-## 1. Be kind
-No hate speech, harassment, bullying, or personal attacks — including DMs. Debate ideas, never insult people. Discrimination of any kind = instant ban.
+## 1. 📤 Share freely
+Files, links, tools, guides, templates, questions, creations, memes — **this forum is built for sharing**. Dump it in the 📤 **Share Zone** or the matching section. Seed discussions welcome; reposts of classics welcome (credit the source).
 
-## 2. No spam or junk
-No ads, referral links, crypto schemes, "earn money fast" posts, or mass-posting the same thing. One account per person. First-post approval is on for new members — quality over speed.
+## 2. 🙋 YOU are responsible for what you post
+The forum is just the platform — **posters own their posts** (see [/terms](/terms)). Only share what you have the right to share. Sharing somebody else's paid/private content? It comes down on complaint, and repeaters get banned. Downloads here are at your own risk — scan everything.
 
-## 3. Keep it legal & safe
-No piracy links, cracks, malware, phishing, stolen accounts, or anything illegal. No NSFW/18+ content anywhere — this is an all-ages community.
+## 3. 🚫 Hard red lines (instant removal + ban, no warnings)
+- Malware, viruses, stealers, phishing pages, scams
+- Anything sexual involving minors — zero tolerance, reported
+- Doxxing: anyone's phone, address, email, passwords, OTPs
+- Credible threats, stalking, targeted harassment, hate content
+*These get communities shut down by hosts. Everything else? Fair game within the rules below.*
 
-## 4. Protect privacy
-Never post anyone's personal info (phone, address, email, passwords, OTPs) — yours or others'. Staff will never ask for your password.
+## 4. 🗑 No junk
+No referral-link spam, crypto schemes, "earn fast" scams, mass-posting the same thing, or bot behavior. One account per person. First posts from new members need approval (anti-bot shield 🛡). Ads for your own stuff: Showcase only, don't carpet-bomb.
 
-## 5. Post in the right place
-- ❓ Need help? → **Help & Support** (mark ✅ Solved when fixed!)
-- 🗣 Chatting? → **General / Off-Topic**
-- 🚀 Made something? → **Showcase**
-- Search before posting — your question may already be answered.
+## 5. 📍 Right place, good titles
+- ❓ Problem → **Help & Support** (mark ✅ Solved after!)
+- 📤 Random drops → **Share Zone** · 🚀 Your work → **Showcase** · 🗣 Chat → **General/Off-Topic**
+- Titles must say what it is ("Working VPN configs — Sept" ✅ / "check this" ❌). No ALL CAPS, no 24h bumps, search before posting dupes.
 
-## 6. Quality matters
-Titles should say what the thread is about ("Login button broken on mobile" ✅, not "help plz" ❌). No ALL CAPS titles, no bumping threads within 24 hours, no reviving dead threads without new info.
-
-## 7. No cheating the ranks
-Farming reactions/upvotes with alts, begging for reactions, or gaming points = rank reset + suspension. Ranks are for real contributors.
+## 6. 🏆 Play ranks fair
+No alt-account farming, no begging reactions, no vote manipulation. Found farming = points reset + suspension.
 
 ## ⚖️ Consequences
-1st time → Warning · 2nd → Mute/suspension · 3rd or severe → Permanent ban. Severe stuff (malware, hate, doxxing) skips straight to ban. Mod decisions are final, but you can appeal politely via the Contact page.
+Warning → mute/suspension → permanent ban. Red-line stuff (§3) skips straight to ban + report where required. Mod calls are final; appeal politely via Contact.
 
-*Rules last updated: launch day. They evolve with the community — check back occasionally.* ⚡
+*Be excellent to each other, share generously, download carefully.* ⚡

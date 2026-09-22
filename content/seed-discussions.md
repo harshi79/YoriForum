@@ -63,3 +63,21 @@ I'll start in the replies 👇
 Hi! New here — I heard there's a dark mode. Where do I turn it on?
 
 *(Admin reply: Click your avatar (top-right) → Night Mode. Welcome! Then mark that reply as Best Answer to demo the flow.)*
+
+---
+
+## 7. 📤 Share Zone — The drop box is OPEN 📥
+*The "share anything" megathread. Sticky it in the Share Zone.*
+
+This is the drop box. **Share anything** 👇
+
+Files, links, tools, templates, configs, ebooks, courses you made, wallpapers, memes, rare finds — if it's interesting, dump it here (or start its own thread in this section for big stuff).
+
+**Ground rules for the Zone:**
+- 📎 Uploads ON — but keep files a few MB max each.
+- ⚠️ Download at your own risk — scan everything, trust but verify.
+- 🙋 YOU are responsible for what you share — only post what you have the right to share ([terms](/terms)).
+- 🚫 Red lines = instant nuke: malware, phishing, doxxing, anything with minors, hate. No warnings.
+- © Got a complaint about something here? Flag it or use Contact — we act fast.
+
+I'll start in the replies. What you got? 📤
