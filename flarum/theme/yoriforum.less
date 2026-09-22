@@ -1,0 +1,155 @@
+/* ============================================================
+   YoriForum theme — paste into Admin → Appearance → Custom LESS
+   Plain CSS (works as LESS too). No build step, no CLI needed.
+   Tweak the :root variables to reskin the whole forum.
+   If nightmode uses a different class, check with F12 inspector
+   and adjust the dark-scope selectors near the bottom.
+   ============================================================ */
+
+:root {
+  --yori-bg: #0a0d18;
+  --yori-panel: #131828;
+  --yori-panel2: #1a2138;
+  --yori-border: #242c4a;
+  --yori-text: #e9ecf5;
+  --yori-muted: #9aa3bf;
+  --yori-accent: #6366f1;
+  --yori-accent2: #8b5cf6;
+  --yori-radius: 12px;
+}
+
+/* ---------- header ---------- */
+.App-header {
+  background: linear-gradient(135deg, #141a33 0%, #1b1440 100%);
+  border-bottom: 1px solid var(--yori-border);
+}
+.Header-title,
+.Header-title a,
+.Header-title a:hover {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+.Header-logo img {
+  max-height: 36px;
+  width: auto;
+}
+.Header-navigation .Button,
+.Header-navigation .Button:hover {
+  color: #cfd4ea;
+}
+
+/* ---------- buttons & links ---------- */
+.Button--primary {
+  background: linear-gradient(135deg, var(--yori-accent), var(--yori-accent2));
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #fff;
+  transition: transform 0.12s ease, filter 0.12s ease;
+}
+.Button--primary:hover {
+  filter: brightness(1.12);
+  transform: translateY(-1px);
+  color: #fff;
+}
+a { color: var(--yori-accent2); }
+a:hover { color: #a78bfa; }
+
+/* ---------- discussion list cards ---------- */
+.DiscussionListItem {
+  border-radius: var(--yori-radius);
+  border: 1px solid transparent;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+.DiscussionListItem:hover { border-color: var(--yori-border); }
+.DiscussionListItem--unread { border-left: 3px solid var(--yori-accent); }
+.DiscussionListItem-title { font-weight: 650; }
+
+/* ---------- tags & labels ---------- */
+.TagLabel {
+  border-radius: 999px;
+  font-weight: 700;
+  padding: 2px 10px;
+}
+
+/* ---------- posts ---------- */
+.Post { border-radius: var(--yori-radius); }
+.Post-header .Avatar {
+  box-shadow: 0 0 0 2px var(--yori-border);
+}
+.Post-body {
+  font-size: 15px;
+  line-height: 1.65;
+}
+.Post-body pre {
+  border-radius: 10px;
+  font-size: 13px;
+}
+.Post-body blockquote {
+  border-left: 3px solid var(--yori-accent);
+  border-radius: 0 8px 8px 0;
+}
+
+/* ---------- composer ---------- */
+.Composer { border-radius: 14px 14px 0 0; }
+
+/* ---------- back-to-top (see custom-footer.html JS) ---------- */
+#yori-top {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+  font-size: 18px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--yori-accent), var(--yori-accent2));
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.45);
+}
+#yori-top.show { display: block; }
+
+/* ---------- polish ---------- */
+::selection { background: rgba(139, 92, 246, 0.4); }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--yori-border);
+  border-radius: 999px;
+}
+img { max-width: 100%; }
+
+/* ---------- dark base (scoped to night-mode class) ----------
+   fof/nightmode toggles a class on <html>/<body>. If these don't
+   kick in, inspect the <body> tag while night mode is ON and
+   replace the selectors below with the real class name. */
+html.nightmode body,
+body.nightmode,
+html.dark body,
+body.dark {
+  background: var(--yori-bg);
+  color: var(--yori-text);
+}
+html.nightmode .DiscussionListItem:hover,
+body.nightmode .DiscussionListItem:hover,
+html.dark .DiscussionListItem:hover,
+body.dark .DiscussionListItem:hover {
+  background: var(--yori-panel);
+}
+html.nightmode .sideNav,
+body.nightmode .sideNav,
+html.dark .sideNav,
+body.dark .sideNav {
+  background: transparent;
+}
+
+/* ---------- mobile ---------- */
+@media (max-width: 768px) {
+  .Header-logo img { max-height: 30px; }
+  .Post-body { font-size: 14.5px; }
+  #yori-top { right: 12px; bottom: 12px; }
+}

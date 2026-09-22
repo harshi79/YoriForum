@@ -1,0 +1,45 @@
+{
+  "name": "yori/forum",
+  "description": "YoriForum — Flarum 2.x + PHCorner-style extension pack. Build locally, upload to any shared host (InfinityFree).",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.3",
+    "flarum/flarum": "^2.0.0",
+
+    "flarum/extension-manager": "*",
+
+    "askvortsov/flarum-categories": "*",
+    "fof/reactions": "*",
+    "fof/gamification": "*",
+    "fof/nightmode": "*",
+    "fof/upload": "*",
+    "fof/polls": "*",
+    "fof/user-directory": "*",
+    "fof/pages": "*",
+    "fof/links": "*",
+    "fof/custom-footer": "*",
+    "fof/merge-discussions": "*",
+    "fof/split": "*",
+    "fof/drafts": "*",
+    "fof/subscribed": "*",
+    "fof/prevent-necrobumping": "*",
+    "fof/formatting": "*",
+    "fof/frontpage": "*",
+    "fof/filter": "*",
+    "fof/anti-spam": "*",
+    "fof/oauth": "*",
+    "fof/best-answer": "*",
+    "fof/sitemap": "*",
+    "datlechin/flarum-bbcode-hide-content": "*",
+    "shebaoting/flarum-money": "*",
+    "v17development/flarum-user-badges": "*",
+    "wyatts97/pwa-v2": "*"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "beta",
+  "prefer-stable": true
+}

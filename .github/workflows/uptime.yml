@@ -1,0 +1,59 @@
+# YoriForum uptime watchdog — 100% free via GitHub Actions.
+#
+# SETUP (2 min, once):
+#   Repo → Settings → Secrets and variables → Actions → Variables → New:
+#     Name: FORUM_URL   Value: https://your-forum.infinityfreeapp.com
+# That's it. The workflow pings the forum every 10 minutes.
+#   - Forum down  → opens a "🚨 Forum is DOWN" issue (one at a time, no spam).
+#   - Forum back  → comments + closes the issue automatically.
+# No third-party service, no card, ~4.3k free Actions minutes/month (limit is way higher).
+
+name: Forum Uptime
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: # manual "Run workflow" button for testing
+
+permissions:
+  issues: write
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping forum (3 tries)
+        id: ping
+        run: |
+          URL="${{ vars.FORUM_URL }}"
+          if [ -z "$URL" ]; then echo "FORUM_URL repo variable not set — see comments in uptime.yml"; exit 1; fi
+          for i in 1 2 3; do
+            CODE=$(curl -s -o /dev/null -w '%{http_code}' --max-time 25 -A 'YoriForum-Uptime/1.0' "$URL" || echo 000)
+            echo "try $i: HTTP $CODE"
+            [ "$CODE" = "200" ] && exit 0
+            sleep 20
+          done
+          exit 1
+
+      - name: Open incident issue (forum DOWN)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          OPEN=$(gh issue list --state open --search 'in:title "🚨 Forum is DOWN"' --json number -q 'length')
+          if [ "$OPEN" = "0" ]; then
+            gh issue create --title "🚨 Forum is DOWN" --body "$(printf 'Uptime check failed 3x for %s\n\nTime: %s\n\nChecklist:\n- [ ] Open the forum URL — hosting down or just slow?\n- [ ] InfinityFree client area — any suspension/limit notice?\n- [ ] Recent change? (extension toggle, upload, config edit)\n- [ ] storage/logs via FTP for the real error\n\nThis issue auto-closes when the forum recovers.' "${{ vars.FORUM_URL }}" "$(date -u '+%Y-%m-%d %H:%M UTC")")"
+          else
+            echo "Incident issue already open — not spamming."
+          fi
+
+      - name: Close incident issues (forum RECOVERED)
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for n in $(gh issue list --state open --search 'in:title "🚨 Forum is DOWN"' --json number -q '.[].number'); do
+            gh issue comment "$n" --body "✅ Forum recovered at $(date -u '+%Y-%m-%d %H:%M UTC'). Closing."
+            gh issue close "$n"
+          done
+          echo "No open incidents (or closed them above)."

@@ -1,0 +1,33 @@
+<?php
+
+// YoriForum — Flarum config template (reference only).
+// The web installer generates the real `config.php` automatically —
+// you normally never touch this. Keep it for manual installs / debugging.
+//
+// Flarum 2.x treats MySQL and MariaDB as DISTINCT drivers:
+//   'driver' => 'mysql'    — if your host runs MySQL 8.x
+//   'driver' => 'mariadb'  — if your host runs MariaDB 10.3+/11.x
+// InfinityFree shows which one you have in Control Panel → MySQL Databases.
+
+return array(
+    'debug' => false,
+
+    'database' => array(
+        'driver'   => 'mysql',          // or 'mariadb' — must match the server!
+        'host'     => 'sql123.infinityfree.com', // from hosting panel — NOT localhost
+        'port'     => '3306',
+        'database' => 'if0_12345678_forum',
+        'username' => 'if0_12345678',
+        'password' => 'YOUR_DB_PASSWORD',
+        'prefix'   => '',
+        'charset'  => 'utf8mb4',
+        'collation'=> 'utf8mb4_unicode_ci',
+    ),
+
+    'url' => 'https://yoriforum.infinityfreeapp.com', // your exact forum URL
+
+    'paths' => array(
+        'api'   => 'api',
+        'admin' => 'admin',
+    ),
+);

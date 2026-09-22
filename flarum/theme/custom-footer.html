@@ -1,0 +1,63 @@
+<!-- ============================================================
+     YoriForum footer — paste into fof/custom-footer content box
+     (Admin → Extensions → Custom Footer). Replace the # links
+     with your real URLs (Telegram, Discord, /rules, /terms).
+     The <script> at the bottom adds: back-to-top button +
+     external links open in new tabs. Safe to keep or delete.
+     ============================================================ -->
+<div class="yori-footer" style="border-top:1px solid #242c4a;margin-top:40px;padding:28px 16px 20px;background:#0e1222;color:#9aa3bf;font-size:13px;">
+  <div style="max-width:1060px;margin:0 auto;display:flex;gap:28px;flex-wrap:wrap;justify-content:space-between;">
+    <div style="min-width:220px;flex:1;">
+      <div style="color:#fff;font-weight:800;font-size:15px;margin-bottom:6px;">⚡ YoriForum</div>
+      <div>A free community for tech, sharing &amp; hanging out.<br>Share freely · post responsibly · download carefully.</div>
+      <div style="margin-top:10px;display:flex;gap:8px;">
+        <a href="#telegram" style="background:#229ED9;color:#fff;padding:6px 14px;border-radius:999px;text-decoration:none;font-weight:700;">✈ Telegram</a>
+        <a href="#discord" style="background:#5865F2;color:#fff;padding:6px 14px;border-radius:999px;text-decoration:none;font-weight:700;">💬 Discord</a>
+      </div>
+    </div>
+    <div style="min-width:140px;">
+      <div style="color:#fff;font-weight:700;margin-bottom:8px;">Forum</div>
+      <div><a href="/" style="color:#9aa3bf;">🏠 Home</a></div>
+      <div><a href="/tags" style="color:#9aa3bf;">🗂 Sections</a></div>
+      <div><a href="/users" style="color:#9aa3bf;">👥 Members</a></div>
+    </div>
+    <div style="min-width:140px;">
+      <div style="color:#fff;font-weight:700;margin-bottom:8px;">Legal</div>
+      <div><a href="/rules" style="color:#9aa3bf;">📜 Rules</a></div>
+      <div><a href="/terms" style="color:#9aa3bf;">📄 Terms &amp; Disclaimer</a></div>
+      <div><a href="/faq" style="color:#9aa3bf;">❓ FAQ</a></div>
+    </div>
+  </div>
+  <div style="max-width:1060px;margin:18px auto 0;padding-top:14px;border-top:1px solid #1c2340;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:12px;">
+    <span>© <span class="yori-year">2026</span> YoriForum · Posters own their posts — see Terms.</span>
+    <span>Powered by <a href="https://flarum.org" style="color:#9aa3bf;">Flarum</a> ⚡</span>
+  </div>
+</div>
+<button id="yori-top" title="Back to top" aria-label="Back to top">↑</button>
+<script>
+(function () {
+  // Year
+  document.querySelectorAll('.yori-year').forEach(function (el) {
+    el.textContent = new Date().getFullYear();
+  });
+  // Back to top
+  var btn = document.getElementById('yori-top');
+  if (btn) {
+    window.addEventListener('scroll', function () {
+      btn.classList.toggle('show', window.scrollY > 600);
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+  // External links in posts open in new tabs
+  document.querySelectorAll('.Post-body a[href^="http"]').forEach(function (a) {
+    try {
+      if (new URL(a.href).host !== location.host) {
+        a.target = '_blank';
+        a.rel = 'noopener';
+      }
+    } catch (e) { /* ignore bad urls */ }
+  });
+})();
+</script>

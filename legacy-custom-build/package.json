@@ -1,0 +1,26 @@
+{
+  "name": "yoriforum",
+  "version": "0.1.0",
+  "private": true,
+  "description": "YoriForum — a scalable, $0-cost forum. Next.js + Cloudflare Workers + D1.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "opennextjs-cloudflare build && wrangler dev .open-next/worker.js --assets .open-next/assets",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "db:create": "wrangler d1 create yoriforum-db",
+    "cf:types": "wrangler types"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.0",
+    "wrangler": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}

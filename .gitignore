@@ -1,0 +1,37 @@
+# ---- Flarum local build artifacts (never commit; built by composer) ----
+/flarum/vendor/
+/flarum/storage/
+/flarum/public/
+/flarum/assets/
+/flarum/config.php
+/flarum/site.php
+/flarum/extend.php
+/flarum/index.php
+/flarum/.htaccess
+/flarum/.nginx.conf
+/flarum/.env
+/flarum/*.log
+/flarum/.flarum/
+
+# ---- legacy custom Next.js build ----
+/legacy-custom-build/node_modules/
+/legacy-custom-build/.next/
+/legacy-custom-build/.open-next/
+/legacy-custom-build/.wrangler/
+/legacy-custom-build/.vercel/
+
+# ---- misc ----
+.DS_Store
+*.log
+
+# ---- generated raw picks (we ship optimized banner.jpg + logo.png) ----
+/assets/banner.png
+
+# ---- leftover JS tooling dirs (anywhere) ----
+node_modules/
+.next/
+.open-next/
+.wrangler/
+.vercel/
+out/
+dist/
