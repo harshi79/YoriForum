@@ -35,3 +35,15 @@ Contact the staff via the Contact page from your registered email. We'll delete 
 
 ## Who runs this place?
 Admins (⚡) + Mods (🛡). They're volunteers — be nice to them. Want to help mod one day? Be an awesome member first.
+
+## How do I see hidden (blurred) content?
+Hit ❤️ **Like** on the post (or reply, depending on the tag), then **refresh** — the box opens. Full how-to: the Unlock Guide thread in 📤 Share Zone. Found a fake hide? Flag it.
+
+## What are ⚡ YoriCoins?
+Forum credits you earn automatically: 50 on signup, +5 per post, +2 per reply, +1 per like received. Right now = status on your profile; soon = custom titles, lounge entry, event entries. Spam-farming = deleted + coins removed.
+
+## What are 🎖 badges?
+Awards for milestones (first share, 10 best answers…), rank-ups, events, and staff picks. They show on your profile. First 100 members get an exclusive **Founding Member** badge 👀
+
+## Why was my share removed?
+Either red-line content (rules §3), a legit complaint (terms §5), or a dead link / fake hide. Honest mistake? Fix it and repost. Think we're wrong? Appeal via Contact.

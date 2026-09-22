@@ -26,3 +26,23 @@ Type these into **fof/gamification** rank settings. Points = activity + upvotes/
 ## Anti-farming notes
 - Keep `fof/anti-spam` + first-post approval ON.
 - If someone's points jump impossibly fast, check their voters for alt accounts (same signup IP/time pattern) → reset + suspend per rules.
+
+## ⚡ YoriCoins (`shebaoting/flarum-money` settings)
+- Money name: `⚡ [money] YC` · Initial money (signup bonus): **50**
+- New post: **+5** · Reply: **+2** · Like received: **+1** · Like given: **0** (no farming by liking everything)
+- Character threshold: 100 chars → +1 per 200 extra chars (rewards effort, not spam)
+- Hide zero balances: ON · Auto-update on delete/hide: ON (deleting spam removes its coins)
+- Future perks (announce later): custom title 500 YC · Lounge entry 300 YC · username glow for Legends
+
+## 🎖 Badge catalog (`v17development/flarum-user-badges`)
+Create categories: Milestones / Contributor / Staff picks / Events.
+| Badge | How earned |
+|---|---|
+| 🌱 First Steps | first discussion posted |
+| 📤 Sharer | first Share Zone thread |
+| 💡 Helper I / II / III | 1 / 10 / 50 Best Answers |
+| 🔥 On Fire | 100 upvotes received (total) |
+| 🏆 Top Monthly | most Best Answers in a month (staff awards) |
+| 🎖 Veteran · 💎 Elite · 👑 Legend | reaching the rank (monthly check / on request) |
+| 🛡 Staff | mods + admins |
+| 🎉 Founding Member | first 100 registered users — award at launch+30 days |

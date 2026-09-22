@@ -12,15 +12,8 @@ Enable: **Tags, Likes, Mentions, Subscriptions, Sticky, Lock, Flags, Approval, S
 
 ### 2. Classic forum sections (the PHCorner look)
 - **`askvortsov/flarum-categories`** — renders tags as a traditional category forum list instead of Flarum's default grid. This is the single biggest "looks like a real forum" switch.
-- Suggested sections (rename to taste):
-  1. 📢 Announcements (admins post only)
-  2. 💬 General Discussion
-  3. 📱 Tech & Internet
-  4. 📚 Tutorials & Guides
-  5. 🚀 Showcase
-  6. 🙋 Help & Support (+ Best Answer, see below)
-  7. 🎲 Off-Topic
-  8. 📤 Share Zone — the anything-goes drop box: files, links, finds, dumps. Uploads ON, open to all Members (guests read-only), first-post approval still applies. Mods nuke red-line stuff (§3 of rules) on sight or flag.
+- Full mature taxonomy lives in [`content/sections.md`](../content/sections.md): ~30 sections in 13 categories (PHCorner-mapped — per-carrier Mobile Networks 🇮🇳, VPN/Configs, Earn & Referrals, Trading Post, Lounge…) each with title prefixes + per-section extension toggles. Create parent tags first, then child sections.
+- 🆕 New systems (already in `composer.json` — enable + configure): **hidden content** (`datlechin/flarum-bbcode-hide-content` — `[LIKE]`/`[REPLY]`/`[LOGIN]`; member guide: `content/unlock-guide.md`), **YoriCoins** (`shebaoting/flarum-money` — settings: `content/ranks.md`), **Badges** (`v17development/flarum-user-badges` — catalog: `content/ranks.md`).
 
 ### 3. Reactions + ranks (the addictive part)
 - **`fof/reactions`** — emoji reactions on posts (integrates with Likes). Suggested set: 👍 ❤️ 😂 😮 😢 😡. Enable for all tags.

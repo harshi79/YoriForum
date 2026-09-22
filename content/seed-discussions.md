@@ -66,6 +66,23 @@ Hi! New here — I heard there's a dark mode. Where do I turn it on?
 
 ---
 
+## 8. 📤 Share Zone — 🎁 Hidden content demo (hit LIKE and watch 🔒→🔓)
+*Live demo of the unlock system. Needs the hide-content extension enabled — the box below will REALLY hide until liked. Sticky next to the drop box.*
+
+Seen boxes like this one? Sharers hide links/passwords so only supporters see them. Try it — **hit ❤️ Like on this post, refresh, and watch it open:**
+
+[LIKE]
+🎉 It worked! You're in.
+This is what unlocked content looks like. Now go support sharers across the forum — every Like earns them status and YoriCoins.
+[/LIKE]
+
+**How it works:** ❤️ `[LIKE]` = like to unlock · 💬 `[REPLY]` = reply to unlock · 🔑 `[LOGIN]` = members only.
+**Full guide (including how to share with hidden blocks):** the 📌 Unlock Guide thread stickied in this section.
+
+Golden rule: never repost unlocked content publicly — respect the hide, link the thread. 🤝
+
+---
+
 ## 7. 📤 Share Zone — The drop box is OPEN 📥
 *The "share anything" megathread. Sticky it in the Share Zone.*
 

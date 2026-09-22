@@ -22,6 +22,8 @@ Post stuff, get upvotes and reactions, earn points, climb automatically:
 | 💎 Elite | 1,000 |
 | 👑 Legend | 2,500 |
 
+Plus: earn ⚡ **YoriCoins** for posting (status now, perks soon), collect 🎖 **badges**, and unlock 🔒 **hidden content** with likes/replies — full system in the Unlock Guide thread (stickied in 📤 Share Zone).
+
 Quality beats quantity — one helpful answer earns more love than ten "nice bro" replies. Farming reactions with alts = reset + suspension. Don't.
 
 ## 💡 How to get the best answers

@@ -26,6 +26,12 @@ No referral-link spam, crypto schemes, "earn fast" scams, mass-posting the same 
 ## 6. 🏆 Play ranks fair
 No alt-account farming, no begging reactions, no vote manipulation. Found farming = points reset + suspension.
 
+## 7. 🎁 Sharing-system fair play
+- Hidden content (`[LIKE]`/`[REPLY]`) must contain what you promised — fake hides get deleted + warned.
+- Update or close threads with dead links. Report dead links you find — helpers get love.
+- Don't repost someone's unlocked hidden content publicly — respect the hide, link the thread instead.
+- No begging/bribing for likes, no coin farming (spam replies for YoriCoins get deleted + coins removed).
+
 ## ⚖️ Consequences
 Warning → mute/suspension → permanent ban. Red-line stuff (§3) skips straight to ban + report where required. Mod calls are final; appeal politely via Contact.
 

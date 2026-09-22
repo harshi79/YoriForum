@@ -30,7 +30,10 @@
     "fof/anti-spam": "*",
     "fof/oauth": "*",
     "fof/best-answer": "*",
-    "fof/sitemap": "*"
+    "fof/sitemap": "*",
+    "datlechin/flarum-bbcode-hide-content": "*",
+    "shebaoting/flarum-money": "*",
+    "v17development/flarum-user-badges": "*"
   },
   "config": {
     "preferred-install": "dist",

@@ -16,7 +16,7 @@ A **PHCorner-style community forum** built on **real, free, battle-tested softwa
 
 ## What you get (the PHCorner feel)
 
-Classic category sections · emoji reactions · upvotes + automatic **member ranks** (Newbie → Legend) · dark mode · file uploads · polls · ✅ solved markers · GitHub/Google login · spam shields (approval queue + StopForumSpam checks) · sitemap/SEO · mod tools (sticky/lock/split/merge/suspend) · member directory · rules/FAQ pages.
+Classic category sections · emoji reactions · upvotes + automatic **member ranks** (Newbie → Legend) · dark mode · file uploads · polls · ✅ solved markers · GitHub/Google login · spam shields (approval queue + StopForumSpam checks) · sitemap/SEO · mod tools (sticky/lock/split/merge/suspend) · member directory · rules/FAQ pages · 🔒 like-to-unlock hidden content · ⚡ YoriCoins · 🎖 badges.
 
 ## Start here (in order)
 
