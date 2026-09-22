@@ -72,9 +72,12 @@ Lock 📢 Announcements to admin-only posting (tag permission).
 
 ## Launch-day content (don't launch empty)
 
-1. Welcome discussion (rules summary + how ranks/reactions work) → FrontPage it + Sticky it.
-2. Rules page (`/rules`) + FAQ (`/faq`) via Pages.
-3. 3–5 seed discussions across sections so every category has life.
-4. Test account: register as a new user, post, react, upload — verify the whole loop.
+Ready-made copy lives in [`content/`](../content/) — rules, FAQ, welcome thread, rank ladder, 6 seed discussions. Just paste + post:
+
+1. Pages: create `/rules` + `/faq` from `content/rules.md` + `content/faq.md`, add to nav via Links.
+2. Welcome discussion from `content/welcome-thread.md` → FrontPage it + Sticky it.
+3. Ranks from `content/ranks.md` → type into Admin → Gamification.
+4. Seed discussions from `content/seed-discussions.md` → post one per section.
+5. Test account: register as a new user, post, react, upload — verify the whole loop.
 
 Next → **[04-admin-handbook.md](04-admin-handbook.md)**

@@ -37,6 +37,8 @@ flarum/
     deploy-ftp.sh        FTP-mirror the build to htdocs (no SSH needed)
   docker/                optional local playground (Apache+PHP 8.3 + MariaDB)
 docs/                    the 5 guides above — the real manual
+content/                 launch content pack: rules, FAQ, welcome thread, ranks, seed posts
+assets/                  brand assets: logo + banner
 legacy-custom-build/     archived v1 (custom Next.js build, superseded)
 ```
 
