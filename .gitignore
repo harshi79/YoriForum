@@ -1,0 +1,22 @@
+# deps
+node_modules/
+
+# next
+.next/
+out/
+
+# cloudflare
+.vercel/
+.open-next/
+.wrangler/
+.dev.vars
+worker-configuration.d.ts
+
+# local sqlite (if any)
+*.db
+*.sqlite
+data/
+
+# misc
+.DS_Store
+*.log

@@ -1,0 +1,10 @@
+# YoriForum — Cloudflare config
+# After `npm run db:create`, paste the real database_id here.
+name = "yoriforum"
+compatibility_date = "2024-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "yoriforum-db"
+database_id = "00000000-0000-0000-0000-000000000000"
