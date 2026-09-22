@@ -36,7 +36,10 @@ flarum/
     install-local.sh     checks PHP/Composer/exts → composer install
     deploy-ftp.sh        FTP-mirror the build to htdocs (no SSH needed)
   docker/                optional local playground (Apache+PHP 8.3 + MariaDB)
-docs/                    the 5 guides above — the real manual
+docs/                    the guides above — the real manual
+docs/landing/            launch landing page (free via GitHub Pages, preview below)
+flarum/theme/            custom theme: LESS + footer HTML/JS (paste in Admin, no CLI)
+.github/workflows/       free uptime watchdog (pings forum, opens issue when down)
 content/                 launch content pack: rules, FAQ, welcome thread, ranks, seed posts
 assets/                  brand assets: logo + banner
 legacy-custom-build/     archived v1 (custom Next.js build, superseded)

@@ -33,6 +33,10 @@ You can't run Composer on the host, so updates happen locally:
 ## SSL renewal
 Free SSL certs expire (~90 days). Client Area → Free SSL Certificates shows expiry — renew a week early and re-install via the panel. Set a phone reminder. (Moving behind Cloudflare later makes this automatic — doc 05.)
 
+## Monitoring (free, automatic)
+- **GitHub Actions watchdog** (in-repo, `.github/workflows/uptime.yml`): set repo variable `FORUM_URL` (Settings → Secrets and variables → Actions → Variables) and it pings the forum every 10 min — opens a 🚨 issue when down, auto-closes on recovery. Test it with "Run workflow" before launch.
+- **UptimeRobot** free tier as a second opinion (5-min checks, Telegram alerts) — see doc 05.
+
 ## Troubleshooting quick table
 | Symptom | Check |
 |---|---|
