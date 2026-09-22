@@ -24,6 +24,9 @@
 .DS_Store
 *.log
 
+# ---- generated raw picks (we ship optimized banner.jpg + logo.png) ----
+/assets/banner.png
+
 # ---- leftover JS tooling dirs (anywhere) ----
 node_modules/
 .next/
